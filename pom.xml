@@ -7,12 +7,6 @@
   <description>Calculator example from The Cucumber Book</description>
   <dependencies>
   	<dependency>
-  		<groupId>com.rubiconproject.oss</groupId>
-  		<artifactId>jchronic</artifactId>
-  		<version>0.2.6</version>
-  		<scope>test</scope>
-  	</dependency>
-  	<dependency>
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   		<version>4.11</version>
