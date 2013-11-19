@@ -8,9 +8,17 @@ public class Calculator {
 	}
 
 	public String run() {
-		String[] addens = input.split("\\+");
-		int sum = Integer.parseInt(addens[0]) + Integer.parseInt(addens[1]);
-		return String.valueOf(sum);
+		int result = 0;
+		if (input.contains("+")) {
+			String[] addens = input.split("\\+");
+			result = Integer.parseInt(addens[0])
+					+ Integer.parseInt(addens[1]);
+		} else {
+			String[] numbers = input.split("/");
+			result = Integer.parseInt(numbers[0])
+					/ Integer.parseInt(numbers[1]);
+		}
+		return String.valueOf(result);
 	}
 
 }
