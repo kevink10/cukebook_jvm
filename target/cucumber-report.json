@@ -1,0 +1,51 @@
+[
+  {
+    "id": "adding",
+    "description": "",
+    "name": "Adding",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "adding;add-two-numbers",
+        "description": "",
+        "name": "Add two numbers",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "name": "the input \"2+2\"",
+            "keyword": "Given ",
+            "line": 4
+          },
+          {
+            "name": "the calculator is run",
+            "keyword": "When ",
+            "line": 5
+          },
+          {
+            "result": {
+              "duration": 469000,
+              "status": "pending",
+              "error_message": "cucumber.runtime.PendingException: TODO: implement me\n\tat calculator.CalculatorStepDefs.the_output_is(CalculatorStepDefs.java:25)\n\tat ✽.Then the output is \"4\"(calculator/adding.feature:6)\n"
+            },
+            "name": "the output is \"4\"",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 15
+                }
+              ],
+              "location": "CalculatorStepDefs.the_output_is(String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "calculator/adding.feature"
+  }
+]
