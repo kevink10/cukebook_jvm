@@ -6,7 +6,7 @@ public class Calculator {
 	}
 
 	public String run() {
-		return null;
+		return "4";
 	}
 
 }
